@@ -14,6 +14,10 @@ public class MyController {
     public String check() {
         return "Hello, Spring Boot! app working";
     }
+     @GetMapping("/karan")
+    public String karan() {
+        return "Hello,karan mishra";
+    }
     
 
 }
